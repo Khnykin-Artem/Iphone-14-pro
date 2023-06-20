@@ -1,7 +1,31 @@
+@import "normalize";
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1200px;
+}
+
 .header {
+  padding: 33px 0 32px;
   background-color: #0a0a0a;
 
-  .container {
-    max-width: 1200px;
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .menu {
+      display: flex;
+
+      .menu-item {
+        padding-right: 30px;
+
+        .menu-link {
+          text-decoration: none;
+          color: #717171;
+        }
+      }
+    }
   }
 }
