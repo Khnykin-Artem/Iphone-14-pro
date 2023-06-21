@@ -2,26 +2,15 @@
 <html lang="ru">
   @@include('html/head.html', { "title": "Iphone-14-pro" })
   <body>
-    <header class="header">
-      <div class="container">
-        <nav class="nav">
-          <ul class="menu">
-            <li class="menu-item">
-              <a href="#" class="menu-link">Что нового</a>
-            </li>
-            <li class="menu-item">
-              <a href="#" class="menu-link">Цвет</a>
-            </li>
-            <li class="menu-item">
-              <a href="#" class="menu-link">Заказать</a>
-            </li>
-          </ul>
-          <a class="logo">
-            <img src="@images/logo.svg" alt="Логотип сайта" class="logo-img">
-          </a>
-          <a href="tel:79094688810" class="phone">+7 909-468-88-10</a>
-        </nav>
-      </div>
-    </header>
+    @@include('html/header.html')
+    <main class="main">
+      <section class="headline">
+        <div class="container">
+          <h1 class="title">IPHONE 14 PRO</h1>
+          <img src="@images/iphone.png" alt="Айфон 14" class="headline-img">
+          <a href="" class="headline-btn">ВЫБРАТЬ</a>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
