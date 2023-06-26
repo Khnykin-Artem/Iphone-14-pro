@@ -53,5 +53,21 @@ body {
     padding: 71px 0 40px;
     text-align: center;
     background-color: #f5f5f7;
+
+    .title {
+      margin: 0 0 40px;
+      font-weight: 700;
+      font-size: 64px;
+      text-transform: uppercase;
+      color: #490e84;
+    }
+
+    .headline-img {
+      margin-bottom: 25px;
+    }
+
+    .headline-btn {
+      display: inline-block;
+    }
   }
 }
