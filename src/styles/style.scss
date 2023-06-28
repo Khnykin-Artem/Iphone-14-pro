@@ -40,10 +40,18 @@ body {
 
     .menu {
       display: flex;
+      flex-grow: 1;
+      flex-basis: 0;
 
       .menu-item {
         padding-right: 30px;
       }
+    }
+
+    .phone {
+      flex-grow: 1;
+      flex-basis: 0;
+      text-align: right;
     }
   }
 }
