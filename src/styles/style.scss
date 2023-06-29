@@ -85,4 +85,39 @@ body {
       background-color: #490e84;
     }
   }
+
+  .new {
+    padding: 87px 0 150px;
+
+    .new-title {
+      margin: 0 0 50px;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: normal;
+      text-align: center;
+      text-transform: uppercase;
+      color: #717171;
+    }
+
+    .new-info {
+      display: flex;
+      align-items: center;
+
+      .new-text p {
+        margin: 0 0 30px;
+        max-width: 560px;
+      }
+
+      .new-text b {
+        display: block;
+        max-width: 560px;
+        font-size: 20px;
+        line-height: 130%;
+      }
+
+      .new-img {
+        margin-left: 191px;
+      }
+    }
+  }
 }
