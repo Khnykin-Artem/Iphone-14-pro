@@ -86,18 +86,19 @@ body {
     }
   }
 
+  .new-title,
+  .color-title {
+    margin: 0 0 50px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+    color: #717171;
+  }
+
   .new {
     padding: 87px 0 150px;
-
-    .new-title {
-      margin: 0 0 50px;
-      font-weight: 700;
-      font-size: 32px;
-      line-height: normal;
-      text-align: center;
-      text-transform: uppercase;
-      color: #717171;
-    }
 
     .new-info {
       display: flex;
@@ -117,6 +118,92 @@ body {
 
       .new-img {
         margin-left: 191px;
+      }
+    }
+  }
+
+  .color {
+    padding-bottom: 150px;
+
+    .color-list {
+      display: flex;
+      justify-content: space-between;
+      text-align: center;
+
+      .color-item img {
+        margin-bottom: 20px;
+      }
+
+      .color-item h3 {
+        margin: 0 0 10px;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 130%;
+      }
+
+      .color-item p {
+        margin: 0;
+        line-height: 130%;
+      }
+    }
+  }
+
+  .contacts {
+    .contacts-inner {
+      display: flex;
+      color: #fff;
+      background-color: #574b63;
+
+      .contacts-form {
+        padding: 140px 93px;
+        width: 100%;
+        text-align: center;
+
+        .contacts-title {
+          margin: 0 0 62px;
+          font-weight: 700;
+          font-size: 32px;
+          line-height: normal;
+          text-align: left;
+          text-transform: uppercase;
+        }
+
+        .contacts-input {
+          display: block;
+          margin-bottom: 20px;
+          border: none;
+          border-bottom: 1px solid #f5f5f5;
+          padding: 10px 0;
+          width: 100%;
+          background-color: #574b63;
+        }
+
+        .contacts-input::placeholder {
+          font-family: "Inter";
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 130%;
+          color: #fff;
+          opacity: 0.5;
+        }
+
+        p {
+          margin: 30px 0;
+          text-align: center;
+          opacity: 0.5;
+        }
+
+        button {
+          border: none;
+          border-radius: 30px;
+          padding: 16px 81px;
+          font-weight: 700;
+          line-height: 130%;
+          text-transform: uppercase;
+          color: #490e84;
+          background-color: #fff;
+          cursor: pointer;
+        }
       }
     }
   }
