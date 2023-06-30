@@ -1,0 +1,24 @@
+.footer {
+  background-color: #0a0a0a;
+
+  .footer-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+    color: #717171;
+  }
+
+  .phone {
+    flex-grow: 1;
+    flex-basis: 0;
+    font-size: 24px;
+    line-height: normal;
+    text-align: right;
+  }
+
+  .footer-link {
+    flex-grow: 1;
+    flex-basis: 0;
+  }
+}

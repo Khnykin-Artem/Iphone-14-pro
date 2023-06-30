@@ -1,0 +1,37 @@
+@media (max-width: 1200px) {
+  .headline-img {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 940px) {
+  .new {
+    .new-info {
+      .new-img {
+        display: none;
+      }
+
+      .new-text p,
+      .new-text b {
+        max-width: 100%;
+      }
+    }
+  }
+}
+
+@media (max-width: 560px) {
+  .main {
+    .headline {
+      .title {
+        font-size: 34px;
+        line-height: 42px;
+      }
+
+      .headline-btn {
+        padding: 16px 90px;
+        font-size: 18px;
+        line-height: 22px;
+      }
+    }
+  }
+}
