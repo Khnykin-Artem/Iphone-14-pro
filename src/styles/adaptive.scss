@@ -4,16 +4,30 @@
   }
 }
 
+@media (max-width: 1100px) {
+  .color {
+    .container {
+      .color-list {
+        .color-item {
+          width: 50%;
+        }
+      }
+    }
+  }
+}
+
 @media (max-width: 940px) {
   .new {
-    .new-info {
-      .new-img {
-        display: none;
-      }
+    .container {
+      .new-info {
+        .new-img {
+          display: none;
+        }
 
-      .new-text p,
-      .new-text b {
-        max-width: 100%;
+        .new-text p,
+        .new-text b {
+          max-width: 100%;
+        }
       }
     }
   }
@@ -32,6 +46,12 @@
         font-size: 18px;
         line-height: 22px;
       }
+    }
+
+    .new-title,
+    .color-title {
+      font-size: 28px;
+      line-height: 32px;
     }
   }
 }
