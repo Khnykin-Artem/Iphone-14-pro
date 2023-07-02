@@ -59,8 +59,9 @@
           flex-direction: column;
           align-items: center;
           justify-content: center;
-          transform: translateY(-100%);
           background-color: #0a0a0a;
+          transform: translateY(-100%);
+          transition: 0.3s ease;
 
           .menu-item {
             padding: 50px 0;
@@ -209,6 +210,29 @@
         .contacts-inner {
           .contacts-form {
             padding: 50px 70px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 420px) {
+  .header {
+    .container {
+      .nav {
+        flex-wrap: wrap;
+
+        .phone {
+          flex-basis: auto;
+          order: 3;
+          margin-top: 50px;
+          width: 100%;
+        }
+
+        .menu {
+          .menu-item {
+            font-size: 32px;
           }
         }
       }
